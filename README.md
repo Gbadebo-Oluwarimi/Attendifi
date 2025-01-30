@@ -1,7 +1,3 @@
-Here's the updated README for your Facial Recognition Attendance System, incorporating more technical details and insights from Adam Geitgey's article on modern face recognition with deep learning.
-
----
-
 # Facial Recognition Attendance System
 
 ## Overview
@@ -32,7 +28,7 @@ The system follows a structured pipeline for face recognition:
 
 ### Deep Learning Insights
 
-Modern face recognition systems, such as the one implemented here, are inspired by advancements in deep learning. Notably, models like **FaceNet** have demonstrated the effectiveness of mapping faces into a high-dimensional space where similar faces are positioned closer together. This method involves training the network with a triplet loss function, which ensures that embeddings of the same person are closer than those of different people. ([en.wikipedia.org](https://en.wikipedia.org/wiki/FaceNet?utm_source=chatgpt.com))
+Modern face recognition systems, such as the one implemented here, are inspired by advancements in deep learning. Notably, models like **FaceNet** have demonstrated the effectiveness of mapping faces into a high-dimensional space where similar faces are positioned closer together. This method involves training the network with a triplet loss function, which ensures that embeddings of the same person are closer than those of different people. ([(https://en.wikipedia.org/wiki/FaceNet?utm_source=chatgpt.com](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)))
 
 ## Installation
 
@@ -45,7 +41,7 @@ Modern face recognition systems, such as the one implemented here, are inspired 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/facial-recognition-attendance-system.git
+   git clonehttps://github.com/Gbadebo-Oluwarimi/Attendifi.git
    cd facial-recognition-attendance-system
    ```
 
@@ -80,16 +76,6 @@ facial-recognition-attendance-system/
 └── README.md                   # Project documentation
 ```
 
-## Contributing
-
-We welcome contributions to enhance this project. To contribute:
-
-1. **Fork the Repository**
-2. **Create a New Branch** (`feature-branch`)
-3. **Commit Your Changes**
-4. **Push to Your Branch**
-5. **Create a Pull Request**
-
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
@@ -104,6 +90,3 @@ Special thanks to:
 - **face_recognition** for simplifying the face detection and recognition process.
 - **Python** for being a versatile programming language suitable for AI and machine learning projects.
 
----
-
-This README provides detailed setup instructions, technical insights, and usage guidelines to assist users in deploying and understanding the Facial Recognition Attendance System. 
