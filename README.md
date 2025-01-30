@@ -1,6 +1,5 @@
 # Facial Recognition Attendance System
 
-## Overview
 
 The **Facial Recognition Attendance System** is a Python-based application designed to automate attendance tracking using advanced computer vision and machine learning techniques. Leveraging libraries such as **OpenCV**, **dlib**, and **face_recognition**, the system detects and recognizes faces in real-time, ensuring efficient and accurate attendance recording.
 
@@ -28,7 +27,7 @@ The system follows a structured pipeline for face recognition:
 
 ### Deep Learning Insights
 
-Modern face recognition systems, such as the one implemented here, are inspired by advancements in deep learning. Notably, models like **FaceNet** have demonstrated the effectiveness of mapping faces into a high-dimensional space where similar faces are positioned closer together. This method involves training the network with a triplet loss function, which ensures that embeddings of the same person are closer than those of different people. ([(https://en.wikipedia.org/wiki/FaceNet?utm_source=chatgpt.com](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)))
+Modern face recognition systems, such as the one implemented here, are inspired by advancements in deep learning. Notably, models like **FaceNet** have demonstrated the effectiveness of mapping faces into a high-dimensional space where similar faces are positioned closer together. This method involves training the network with a triplet loss function, which ensures that embeddings of the same person are closer than those of different people. ([article link](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)))
 
 ## Installation
 
